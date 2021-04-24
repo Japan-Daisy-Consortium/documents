@@ -13,4 +13,8 @@
 
 ## 分かち書き発見 / Discovery of Space as Word Dividers
 
-- [Discovery of Space as Word Dividers (DRAFT 1.0)](https://japan-daisy-consortium.github.io/documents/en/DiscoveryofSpaceasWordDividers.html)
+- [Discovery of Space as Word Dividers (DRAFT 1.0)](https://japan-daisy-consortium.github.io/documents/en/DSWD/DiscoveryofSpaceasWordDividers.html)
+
+## Structural Navigation
+
+- [Structural Navigation in EPUB publications](https://japan-daisy-consortium.github.io/documents/en/SNE/StructuralNavigationEPUB.html)
