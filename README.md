@@ -8,6 +8,7 @@
 
 ## ルビ発見 / Discovery of the Accessible Qualities of Ruby
 
+- [ルビ表示要求仕様 Version 1.0](https://japan-daisy-consortium.github.io/documents/ja/RDR/epub-a11y-ruby-display-req.html)
 - [Discovery of the Accessible Qualities of Ruby (DRAFT 1.2)](https://japan-daisy-consortium.github.io/documents/en/DAQR/DiscoveryoftheAccessibleQualitiesofRuby.html)
 
 
