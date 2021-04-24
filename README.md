@@ -11,6 +11,6 @@
 - [Discovery of the Accessible Qualities of Ruby (DRAFT 1.2)](https://japan-daisy-consortium.github.io/documents/en/DAQR/DiscoveryoftheAccessibleQualitiesofRuby.html)
 
 
-## わかち / Discovery of Space as Word Dividers
+## 分かち書き発見 / Discovery of Space as Word Dividers
 
 - [Discovery of Space as Word Dividers (DRAFT 1.0)](https://japan-daisy-consortium.github.io/documents/en/DiscoveryofSpaceasWordDividers.html)
