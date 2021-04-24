@@ -13,6 +13,7 @@
 
 ## 分かち書き発見 / Discovery of Space as Word Dividers
 
+- [分かち書き発見要求仕様 Version 1.1](https://japan-daisy-consortium.github.io/documents/ja/epub-a11y-word-dividers-discovery-req.html)
 - [Discovery of Space as Word Dividers (DRAFT 1.0)](https://japan-daisy-consortium.github.io/documents/en/DSWD/DiscoveryofSpaceasWordDividers.html)
 
 ## Structural Navigation
