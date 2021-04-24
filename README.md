@@ -6,6 +6,11 @@
 - [縦組・横組発見機構仕様 Version 1.0](https://japan-daisy-consortium.github.io/documents/ja/epub-a11y-hv-discovery-mechanism.html)
 - [Discovery of the Writing Direction (DRAFT 1.2)](https://japan-daisy-consortium.github.io/documents/en/DWD/DiscoveryoftheWritingDirection.html)
 
-## Discovery of the Accessible Qualities of Ruby
+## ルビ発見 / Discovery of the Accessible Qualities of Ruby
 
 - [Discovery of the Accessible Qualities of Ruby (DRAFT 1.2)](https://japan-daisy-consortium.github.io/documents/en/DAQR/DiscoveryoftheAccessibleQualitiesofRuby.html)
+
+
+## わかち / Discovery of Space as Word Dividers
+
+- [Discovery of Space as Word Dividers (DRAFT 1.0)](https://japan-daisy-consortium.github.io/documents/en/DiscoveryofSpaceasWordDividers.html)
