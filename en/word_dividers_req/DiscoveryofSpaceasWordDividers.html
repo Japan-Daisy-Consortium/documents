@@ -1,9 +1,17 @@
 <!DOCTYPE html><html><head>
-      <title>EPUB Accessibility Requirements: Discovery of Space as Word Dividers (DRAFT 1.0)</title>
+      <title>DiscoveryofSpaceasWordDividers</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
+      
+      <link rel="stylesheet" href="file:////Users/andoukazuhiro/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.5.18/node_modules/@shd101wyy/mume/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
       
       <style>
       /**
@@ -277,8 +285,10 @@ pre[data-line] .line-highlight[data-end]:after {
 <h2 class="mume-header" id="2terms-and-definitions">2.Terms and Definitions</h2>
 
 <p>Terms (most notably &#x201C;discovery&#x201D;) defined in EPUB Accessibility (ISO/IEC 23761 and W3C Member Submission) and the following terms apply.</p>
-<p>word divider<br>
-a glyph (typically space) that separates words in written text.</p>
+<dl>
+<dt>word divider</dt>
+<dd>a glyph (typically space) that separates words in written text.</dd>
+</dl>
 <h2 class="mume-header" id="3use-or-non-use-of-space-as-word-dividers-in-japanese">3.Use or Non-use of Space as Word Dividers in Japanese</h2>
 
 <p>Japanese text is written without space as word dividers.  That is, there is no space between adjacent Japanese words.  For example, consider &#x201C;&#x79C1;&#x306E;&#x540D;&#x524D;&#x306F;&#x6751;&#x7530;&#x3067;&#x3059;&#x3002;&#x201D;.  An English translation is &#x201C;My name is Murata&#x201D;.  Here &#x201C;&#x79C1;&#x201D; means &#x201C;my&#x201D;; &#x201C;&#x540D;&#x524D;&#x201D; means &#x201C;name&#x201D;; &#x201C;&#x6751;&#x7530;&#x201D; means &#x201C;Murata&#x201D;; &#x201C;&#x3067;&#x3059;&#x201D; means &#x201C;is&#x201D;.  But there is no space among these words.<br>
@@ -293,20 +303,20 @@ Space as word dividers has been used in textbooks for lower elementary school st
 <h2 class="mume-header" id="5different-discovery-requirements-from-different-types-of-print-disabilities">5.Different Discovery Requirements from Different Types of Print Disabilities</h2>
 
 <ul>
-<li>Requirement S1: It should be possible to find EPUB publications that can be rendered with space as word dividers as explicitly specified by authors.</li>
+<li><strong>Requirement S1: It should be possible to find EPUB publications that can be rendered with space as word dividers as explicitly specified by authors.</strong></li>
 </ul>
 <p>Note: The phrase &#x201C;as explicitly specified by authors&#x201D; is extremely important.  Suppose that an EPUB reading system enables an external CSS stylesheet for invoking the first and second steps mentioned above.  Then, any Japanese EPUB publication can be rendered with space as word dividers although space might appear at inappropriate places.</p>
 <ul>
-<li>Requirement S2: It should be possible to find EPUB publications that can be rendered without space as word dividers.</li>
+<li><strong>Requirement S2: It should be possible to find EPUB publications that can be rendered without space as word dividers.</strong></li>
 </ul>
 <p>Note: It is possible to create an EPUB publication that can be rendered with space as word dividers and can also be rendered without space as word dividers.  Thus, the same EPUB publication may be found by a query for space-divided publications as well as by a query for not-space-divided publications.</p>
 <p>Note: An EPUB publication containing space characters as word-dividers cannot be rendered without space as word dividers. -</p>
 <h2 class="mume-header" id="6-references">6. References</h2>
 
 <ul>
-<li>ISO/IEC 23761, Digital publishing &#x2014; EPUB accessibility &#x2014; Conformance and discoverability requirements for EPUB publications <a href="https://www.iso.org/standard/76860.html">https://www.iso.org/standard/76860.html</a></li>
-<li>Requirements for Japanese Text Layout, W3C Working Group Note 11 August 2020, <a href="https://www.w3.org/TR/jlreq/">https://www.w3.org/TR/jlreq/</a></li>
-<li>CSS Text Module Level 4, W3C Working Draft, 13 November 2019<a href="https://www.w3.org/TR/css-text-4/">https://www.w3.org/TR/css-text-4/</a></li>
+<li>ISO/IEC 23761, Digital publishing &#x2014; EPUB accessibility &#x2014; Conformance and discoverability requirements for EPUB publications, available at <a href="https://www.iso.org/standard/76860.html">https://www.iso.org/standard/76860.html</a></li>
+<li>Requirements for Japanese Text Layout, W3C Working Group Note 11 August 2020, available at <a href="https://www.w3.org/TR/jlreq/">https://www.w3.org/TR/jlreq/</a></li>
+<li>CSS Text Module Level 4, W3C Working Draft, 13 November 2019, available at <a href="https://www.w3.org/TR/css-text-4/">https://www.w3.org/TR/css-text-4/</a></li>
 </ul>
 
       </div>
