@@ -1,8 +1,18 @@
 <!DOCTYPE html><html><head>
-      <title>Structural Navigation in EPUB publications</title>
+      <title>StructuralNavigationEPUB</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+      
+      <link rel="stylesheet" href="file:////Users/andoukazuhiro/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.5.18/node_modules/@shd101wyy/mume/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
       <style>
       /**
  * prism.js Github theme based on GitHub's theme.
@@ -275,45 +285,61 @@ pre[data-line] .line-highlight[data-end]:after {
 
 <h3 class="mume-header" id="1-move-to-the-next-or-previous-block-element">1)  Move to the next (or previous) block element</h3>
 
-<p>Let current-block-element be the block element that immediately follows (resp. precedes) the current-block-element.</p>
-<p>Reset current-element-in-navdoc and current-par-node accordingly.</p>
+<ul>
+<li>Let current-block-element be the block element that immediately follows (resp. precedes) the current-block-element.</li>
+<li>Reset current-element-in-navdoc and current-par-node accordingly.</li>
+</ul>
 <h2 class="mume-header" id="4-spine-based-navigation">4. Spine-based navigation</h2>
 
 <h3 class="mume-header" id="1-move-to-the-next-or-previous-spine-item">1)  Move to the next (or previous) spine item</h3>
 
-<p>Let current-content-document be the content document that immediately follows (resp. precedes) the current-content-document.</p>
-<p>Let current-block-element be the first block element in the current content document.</p>
-<p>Reset current-element-in-navdoc and current-par-node accordingly.</p>
+<ul>
+<li>Let current-content-document be the content document that immediately follows (resp. precedes) the current-content-document.</li>
+<li>Let current-block-element be the first block element in the current content document.</li>
+<li>Reset current-element-in-navdoc and current-par-node accordingly.</li>
+</ul>
 <h2 class="mume-header" id="5-navdoc-based-navigation">5.   Navdoc-based navigation</h2>
 
 <h3 class="mume-header" id="1-move-from-an-li-element-in-the-navigation-document-to-the-referenced-content-document">1) Move from an li element in the navigation document to the referenced content document</h3>
 
-<p>Let current-content-document and current-block-element be the content document and the block element (if non, the first block element) that are referenced by the current-element-in-navdoc.</p>
+<ul>
+<li>Let current-content-document and current-block-element be the content document and the block element (if non, the first block element) that are referenced by the current-element-in-navdoc.</li>
+</ul>
 <h3 class="mume-header" id="2-move-to-the-next-or-previous-li-element">2) Move to the next (or previous) li element</h3>
 
-<p>Let current-element-in&#xAD;-navdoc be that li element in the navdoc which immediately follows (resp. precedes) the current-element-in&#xAD;-navdoc.</p>
-<p>Reset current-block-element, current-content-document, and current-par-node accordingly.</p>
+<ul>
+<li>Let current-element-in&#xAD;-navdoc be that li element in the navdoc which immediately follows (resp. precedes) the current-element-in&#xAD;-navdoc.</li>
+<li>Reset current-block-element, current-content-document, and current-par-node accordingly.</li>
+</ul>
 <h3 class="mume-header" id="3-move-to-the-nearest-ancestor-li-element">3) Move to the nearest-ancestor li element</h3>
 
-<p>Let current-element-in&#xAD;-navdoc be that li element in the navdoc which is the nearest ancestor of the current-element-in-navdoc.</p>
-<p>Reset current-block-element, current-content-document, and current-par-node accordingly.</p>
+<ul>
+<li>Let current-element-in&#xAD;-navdoc be that li element in the navdoc which is the nearest ancestor of the current-element-in-navdoc.</li>
+<li>Reset current-block-element, current-content-document, and current-par-node accordingly.</li>
+</ul>
 <h2 class="mume-header" id="6-mo-based-navigation">6.   MO-based navigation</h2>
 
 <h3 class="mume-header" id="1-move-to-the-next-resp-previous-par-element">1)  Move to the next (resp. previous) par element</h3>
 
-<p>Let current-par-node be that par element in the MO document which immediately follows (resp. precedes) the current-par-node.</p>
-<p>Reset current-block-element, current-content-document, and current-element-in&#xAD;-navdoc accordingly.</p>
+<ul>
+<li>Let current-par-node be that par element in the MO document which immediately follows (resp. precedes) the current-par-node.</li>
+<li>Reset current-block-element, current-content-document, and current-element-in&#xAD;-navdoc accordingly.</li>
+</ul>
 <h2 class="mume-header" id="7-desirable-consistencies">7.   Desirable Consistencies</h2>
 
 <h3 class="mume-header" id="1-same-directions">1)  Same Directions</h3>
 
-<p>Next in MO-based navigation and Next in</p>
+<ul>
+<li>Next in MO-based navigation and Next in</li>
+</ul>
 <h3 class="mume-header" id="2-reachability">2)  Reachability</h3>
 
-<p>Content documents reachable by spine-based navigation does not have to be reachable by nav-doc-based navigation</p>
-<p>Content documents reachable by nav-doc-based navigation MUST be reachable by spine-based navigation.</p>
-<p>Block elements reachable by content-based MO-based navigation should be reachable</p>
-<p>What is reachable by MO-based navigation should be reachable by content-based</p>
+<ul>
+<li>Content documents reachable by spine-based navigation does not have to be reachable by nav-doc-based navigation</li>
+<li>Content documents reachable by nav-doc-based navigation MUST be reachable by spine-based navigation.</li>
+<li>Block elements reachable by content-based MO-based navigation should be reachable</li>
+<li>What is reachable by MO-based navigation should be reachable by content-based</li>
+</ul>
 
       </div>
       
