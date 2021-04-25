@@ -22,4 +22,4 @@
 
 ## Structural Navigation
 
-- [Structural Navigation in EPUB publications](https://japan-daisy-consortium.github.io/documents/en/SNE/StructuralNavigationEPUB.html)
+- [Structural Navigation in EPUB publications](https://japan-daisy-consortium.github.io/documents/en/structural_navigation/StructuralNavigationEPUB.html)
